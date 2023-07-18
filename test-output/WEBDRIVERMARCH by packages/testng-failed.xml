@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WEBDRIVERMARCH by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testt(failed)">
+    <classes>
+      <class name="testt.Fblogintest">
+        <methods>
+          <include name="setUp"/>
+          <include name="fbtest"/>
+        </methods>
+      </class> <!-- testt.Fblogintest -->
+    </classes>
+  </test> <!-- testt(failed) -->
+</suite> <!-- Failed suite [WEBDRIVERMARCH by packages] -->
